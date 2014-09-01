@@ -1,0 +1,14 @@
+{
+    "name": "chellem/designpatterns",
+    "description": "design pattern tutorials",
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dickriven Chellemboyee"
+        }
+    ]
+}
