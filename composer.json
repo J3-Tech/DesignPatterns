@@ -3,7 +3,7 @@
     "description": "design pattern tutorials",
     "autoload": {
         "psr-0": {
-            "": "src/"
+            "": "src/Week2/Exercise1"
         }
     },
     "authors": [
