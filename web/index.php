@@ -6,7 +6,10 @@ require_once "../vendor/autoload.php";
 // $book=new Book('title','test one', 'test', 30.15, 15, 90);
 // echo $book->getSummaryLine();
 
-use Math\Arithmetic;
+// use Math\Arithmetic;
 
-$arithmetic=new Arithmetic(2);
-echo $arithmetic->square();
+// $arithmetic=new Arithmetic(2);
+// echo $arithmetic->square();
+
+use RedPlate\RedPlate;
+RedPlate::extend('::base.php');

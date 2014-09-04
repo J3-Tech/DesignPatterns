@@ -3,9 +3,10 @@
     "description": "design pattern tutorials",
     "autoload": {
         "psr-0": {
-            "Shop": "src/Week2/Exercise1",
-            "ALP" : "src/Week2/Exercise2",
-            "Math": "src/Week2/Exercise3"
+            "Shop": "src/Arch/Week2/Exercise1",
+            "ALP" : "src/Arch/Week2/Exercise2",
+            "Math": "src/Arch/Week2/Exercise3",
+            "":"src/",
         }
     },
     "authors": [
