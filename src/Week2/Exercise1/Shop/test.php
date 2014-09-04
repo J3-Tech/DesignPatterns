@@ -1,3 +1,6 @@
-require_once "vendor/autoload.php"
+<?php
 
-// TODO: Need to write test to test class CD & class Book
+use Shop\Book;
+
+$book=new Book('title','test one', 'test', 30.15, 15, 90);
+echo $book->getSummaryLine();
