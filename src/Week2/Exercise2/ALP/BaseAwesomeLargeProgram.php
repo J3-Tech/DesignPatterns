@@ -2,7 +2,7 @@
 
 namespace ALP;
 
-abstract class AwesomeLargeProgram implements IAwesomeLargeProgram
+abstract class BaseAwesomeLargeProgram implements IAwesomeLargeProgram
 {
 
 }

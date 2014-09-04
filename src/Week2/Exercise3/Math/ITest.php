@@ -4,5 +4,5 @@ namespace Math;
 
 interface ITest
 {
-    function square();
+    public function square();
 }
