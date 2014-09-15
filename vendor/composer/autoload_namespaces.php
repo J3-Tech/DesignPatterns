@@ -7,8 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Shop' => array($baseDir . '/src/Week2/Exercise1'),
-    'RedPlate' => array($baseDir . '/src'),
-    'TOC' => array($baseDir . '/src'),
     'Math' => array($baseDir . '/src/Week2/Exercise3'),
     'ALP' => array($baseDir . '/src/Week2/Exercise2'),
+    'Player' => array($baseDir . '/src/Arch/Week3'),
+    'Pizza' => array($baseDir . '/src/Arch/Week4')
 );
