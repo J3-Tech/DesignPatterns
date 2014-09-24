@@ -4,5 +4,5 @@ namespace Pizza\Factory;
 
 abstract class Creator
 {
-	public abstract function create($type);
+    abstract public function create($type);
 }

@@ -10,5 +10,6 @@ return array(
     'Math' => array($baseDir . '/src/Week2/Exercise3'),
     'ALP' => array($baseDir . '/src/Week2/Exercise2'),
     'Player' => array($baseDir . '/src/Arch/Week3'),
-    'Pizza' => array($baseDir . '/src/Arch/Week4')
+    'Pizza' => array($baseDir . '/src/Arch/Week4'),
+    'Connection'=>array($baseDir . '/src/Arch/Week5')
 );

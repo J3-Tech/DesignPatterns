@@ -32,6 +32,16 @@ require_once "../vendor/autoload.php";
 // echo $mp3Player->stop().'<br/>';
 // echo $walkmanPlayer->stop().'<br/>';
 
-use Pizza\Client;
+// use Pizza\Client;
+
+// new Client();
+
+// use Connection\Connection;
+
+// $handler=Connection::getInstance();
+// $select=$handler->query('select * from test');
+// print_r($select->fetchAll());
+
+use CommManager\Client;
 
 new Client();

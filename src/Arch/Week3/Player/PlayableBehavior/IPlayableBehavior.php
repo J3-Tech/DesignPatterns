@@ -2,6 +2,7 @@
 
 namespace Player\PlayableBehavior;
 
-interface IPlayableBehavior{
-	function play();
+interface IPlayableBehavior
+{
+    public function play();
 }

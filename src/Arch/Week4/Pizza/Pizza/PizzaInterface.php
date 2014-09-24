@@ -4,8 +4,8 @@ namespace Pizza\Pizza;
 
 interface PizzaInterface
 {
-	function bake();
-	function prepare();
-	function cut();
-	function box();
+    public function bake();
+    public function prepare();
+    public function cut();
+    public function box();
 }
