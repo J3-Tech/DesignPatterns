@@ -3,3 +3,5 @@ XYZ news agency is a company which gathers news and publish them to different su
 the subscribers can receive the news in different ways: emails, sms, etc. the soln need to be extensively enough to support new types of subscribers (maybe new communication technologies will appear).
 
 identify the most appropriate GOF design pattern for the above task.  using UML class diagram illustrate the implementation of your soln.
+
+![Observer](https://raw.githubusercontent.com/chellem/DesignPatterns/master/src/Patterns/Observer/XYZ/design.png)

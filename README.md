@@ -3,17 +3,17 @@ Design Patterns
 
 Creational
 ----------
-* Factory
-* Abstract Factory
-* Singleton
+* [Factory](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Factory/Pizza)
+* [Abstract Factory](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/AbstractFactory/CommManager)
+* [Singleton](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Singleton/Connection)
 
 Structural
 ----------
-* Composite
-* Decorator
+* [Composite](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Composite/Nav)
+* [Decorator](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Decorator)
 
 Behavioral
 ----------
-* Strategy
-* Observer
-* Template
+* [Strategy](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Strategy/Player)
+* [Observer](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Composite/Nav)
+* [Template](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Template/Travel)
