@@ -6,10 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Shop' => array($baseDir . '/src/Week2/Exercise1'),
-    'Math' => array($baseDir . '/src/Week2/Exercise3'),
-    'ALP' => array($baseDir . '/src/Week2/Exercise2'),
-    'Player' => array($baseDir . '/src/Arch/Week3'),
-    'Pizza' => array($baseDir . '/src/Arch/Week4'),
-    'Connection'=>array($baseDir . '/src/Arch/Week5')
+    'ComputerMakers'=>array($baseDir . '/src/Arch/Week6'),
+    'Nav'=>array($baseDir . '/src/Arch/Week7'),
+    'Award'=>array($baseDir . '/src/Arch/Week7'),
+    'XYZ'=>array($baseDir . '/src/Arch/Week8')
 );

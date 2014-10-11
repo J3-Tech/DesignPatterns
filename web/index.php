@@ -1,47 +1,46 @@
 <?php
 require_once "../vendor/autoload.php";
 
-// use Shop\Book;
+// use Nav\Menu;
+// use Nav\Button;
+// use Award\Sticker;
+// use Award\Decorator\Book;
+// use Award\Decorator\Certificate;
 
-// $book=new Book('title','test one', 'test', 30.15, 15, 90);
-// echo $book->getSummaryLine();
+// $submenu1=new Menu();
+// $submenu1->add(new Button('submenu 1','/submenu1'))
+// 		 ->add(new Button('submenu 2','/submenu2'));
 
-// use Math\Arithmetic;
+// $submenu2=new Menu();
+// $submenu2->add(new Button('submenu 3','/submenu1'))
+// 		 ->add(new Button('submenu 4','/submenu2'))
+// 		 ->add($submenu1);
 
-// $arithmetic=new Arithmetic(2);
-// echo $arithmetic->square();
+// $submenu2->remove($submenu1);
 
-// use RedPlate\RedPlate;
-// RedPlate::extend('::base.php');
+// $menu=new Menu();
+// $menu->add(new Button('test 1','/test1'))
+// 	 ->add(new Button('test 2','/test2'))
+// 	 ->add($submenu2);
 
-// use Player\CassettePlayer;
-// use Player\MP3Player;
-// use Player\WalkmanPlayer;
+// // print_r($menu);
 
-// $cassettePlayer=new CassettePlayer();
-// $mp3Player=new MP3Player();
-// $walkmanPlayer=new WalkmanPlayer();
+// $book=new Book(new Sticker());
+// $certificate=new Certificate(new Sticker());
 
+// echo $book->getDescription();
+// echo "\n";
+// echo $certificate->getDescription();
 
-// echo $cassettePlayer->play().'<br/>';
-// echo $mp3Player->play().'<br/>';
-// echo $walkmanPlayer->play().'<br/>';
-// echo '<br />';
+use XYZ\Observable\News;
+use XYZ\Subscriber\EmailSubscriber;
+use XYZ\Subscriber\SMSSubscriber;
 
-// echo $cassettePlayer->stop().'<br/>';
-// echo $mp3Player->stop().'<br/>';
-// echo $walkmanPlayer->stop().'<br/>';
+$SMSSubscriber=new SMSSubscriber();
+$news=new News();
+$news->attach(new EmailSubscriber())
+	 ->attach($SMSSubscriber);
 
-// use Pizza\Client;
+//$news->detach($SMSSubscriber);
 
-// new Client();
-
-// use Connection\Connection;
-
-// $handler=Connection::getInstance();
-// $select=$handler->query('select * from test');
-// print_r($select->fetchAll());
-
-use CommManager\Client;
-
-new Client();
+$news->notify();
