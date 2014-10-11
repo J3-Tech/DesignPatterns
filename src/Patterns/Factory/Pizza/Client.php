@@ -13,11 +13,11 @@ class Client
         foreach (['pepperoni','cheese','veggie'] as $type) {
             $pizza=$factory->create($type);
             if ($pizza instanceof PizzaInterface) {
-                echo nl2br(ucfirst($pizza->prepare()));
-                echo nl2br(ucfirst($pizza->bake()));
-                echo nl2br(ucfirst($pizza->cut()));
-                echo nl2br(ucfirst($pizza->box()));
-                echo nl2br("\n");
+                echo ucfirst($pizza->prepare());
+                echo ucfirst($pizza->bake());
+                echo ucfirst($pizza->cut());
+                echo ucfirst($pizza->box());
+                echo "\n";
             }
         }
     }
