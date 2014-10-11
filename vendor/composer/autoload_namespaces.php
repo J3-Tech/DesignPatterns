@@ -6,8 +6,15 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ComputerMakers'=>array($baseDir . '/src/Arch/Week6'),
-    'Nav'=>array($baseDir . '/src/Arch/Week7'),
-    'Award'=>array($baseDir . '/src/Arch/Week7'),
-    'XYZ'=>array($baseDir . '/src/Arch/Week8')
+    'XYZ' => array($baseDir . '/src/Patterns/Observer'),
+    'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'Player' => array($baseDir . '/src/Patterns/Strategy'),
+    'Pizza' => array($baseDir . '/src/Patterns/Factory'),
+    'Nav' => array($baseDir . '/src/Patterns/Composite'),
+    'Connection' => array($baseDir . '/src/Patterns/Singleton'),
+    'ComputerMakers' => array($baseDir . '/src/Patterns/Decorator'),
+    'CommManager' => array($baseDir . '/src/Patterns/AbstractFactory'),
+    'Caffeine' => array($baseDir . '/src/Patterns/Template'),
+    'Award' => array($baseDir . '/src/Patterns/Decorator'),
+    '' => array($baseDir . '/src'),
 );

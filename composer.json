@@ -1,12 +1,21 @@
 {
     "name": "chellem/designpatterns",
     "description": "design pattern tutorials",
+    "require": {
+        "symfony/console": "2.6.*@dev"
+    },
     "autoload": {
         "psr-0": {
-            "Shop": "src/Arch/Week2/Exercise1",
-            "ALP" : "src/Arch/Week2/Exercise2",
-            "Math": "src/Arch/Week2/Exercise3",
-            "":"src/",
+            "Award"         : "src/Patterns/Decorator",
+            "Caffeine"      : "src/Patterns/Template",
+            "CommManager"   : "src/Patterns/AbstractFactory",
+            "ComputerMakers": "src/Patterns/Decorator",
+            "Connection"    : "src/Patterns/Singleton",
+            "Nav"           : "src/Patterns/Composite",
+            "Pizza"         : "src/Patterns/Factory",
+            "Player"        : "src/Patterns/Strategy",
+            "XYZ"           : "src/Patterns/Observer",
+            ""              : "src/"
         }
     },
     "authors": [
