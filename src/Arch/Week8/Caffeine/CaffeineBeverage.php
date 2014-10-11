@@ -4,25 +4,25 @@ namespace Caffeine;
 
 abstract class CaffeineBeverage
 {
-	public final function prepareRecipe()
-	{
-		$this->boilWater()
-			 ->pour();
-	}
+    final public function prepareRecipe()
+    {
+        $this->boilWater()
+             ->pour();
+    }
 
-	private function boilWater()
-	{
-		echo "boil water\n";
+    private function boilWater()
+    {
+        echo "boil water\n";
 
-		return $this;
-	}
+        return $this;
+    }
 
-	private function pour()
-	{
-		echo "pour\n";
+    private function pour()
+    {
+        echo "pour\n";
 
-		return $this;
-	}
+        return $this;
+    }
 
-	public function brew();
+    public function brew();
 }

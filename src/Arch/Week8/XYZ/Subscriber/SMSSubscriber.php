@@ -6,8 +6,8 @@ use XYZ\Observable\NewsPublisher;
 
 class SMSSubscriber extends Subscriber
 {
-	public function update(NewsPublisher $newPublisher)
-	{
+    public function update(NewsPublisher $newPublisher)
+    {
 
-	}
+    }
 }

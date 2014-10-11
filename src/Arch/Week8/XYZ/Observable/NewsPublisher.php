@@ -6,38 +6,38 @@ use XYZ\Subscriber\Subscriber;
 
 abstract class NewsPublisher
 {
-	protected $subscribers=array();
-	protected $currentNews;
+    protected $subscribers=array();
+    protected $currentNews;
 
-	public function attach(Subscriber $subscriber)
-	{
-		$this->subscribers[]=$subscriber;
+    public function attach(Subscriber $subscriber)
+    {
+        $this->subscribers[]=$subscriber;
 
-		return $this;
-	}
+        return $this;
+    }
 
-	public function detach(Subscriber $subscriber)
-	{
-		if($key=array_search($subscriber, $this->subscribers)){
-			unset($this->subscribers[$key]);
-		}
+    public function detach(Subscriber $subscriber)
+    {
+        if ($key=array_search($subscriber, $this->subscribers)) {
+            unset($this->subscribers[$key]);
+        }
 
-		return $this;
-	}
+        return $this;
+    }
 
-	public function notify()
-	{
-		foreach ($this->subscribers as $subscriber) {
-			$this->update($subscriber);
-		}
-	}
+    public function notify()
+    {
+        foreach ($this->subscribers as $subscriber) {
+            $this->update($subscriber);
+        }
+    }
 
-	public function setCurrentNews($currentNews)
-	{
-		$this->currentNews=$currentNews;
+    public function setCurrentNews($currentNews)
+    {
+        $this->currentNews=$currentNews;
 
-		return $this;
-	}
+        return $this;
+    }
 
-	public abstract function update(Subscriber $subscriber);
+    abstract public function update(Subscriber $subscriber);
 }

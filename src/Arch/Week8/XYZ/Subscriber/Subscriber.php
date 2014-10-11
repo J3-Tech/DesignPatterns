@@ -6,5 +6,5 @@ use XYZ\Observable\NewsPublisher;
 
 abstract class Subscriber
 {
-	public abstract function update(NewsPublisher $newPublisher);
+    abstract public function update(NewsPublisher $newPublisher);
 }
