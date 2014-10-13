@@ -7,6 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'XYZ' => array($baseDir . '/src/Patterns/Observer'),
+    'Type' => array($baseDir . '/src/Patterns/Iterator'),
+    'Trip' => array($baseDir . '/src/Patterns/Template'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Player' => array($baseDir . '/src/Patterns/Strategy'),
     'Pizza' => array($baseDir . '/src/Patterns/Factory'),
@@ -14,7 +16,6 @@ return array(
     'Connection' => array($baseDir . '/src/Patterns/Singleton'),
     'ComputerMakers' => array($baseDir . '/src/Patterns/Decorator'),
     'CommManager' => array($baseDir . '/src/Patterns/AbstractFactory'),
-    'Caffeine' => array($baseDir . '/src/Patterns/Template'),
     'Award' => array($baseDir . '/src/Patterns/Decorator'),
     '' => array($baseDir . '/src'),
 );
