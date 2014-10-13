@@ -7,13 +7,14 @@
     "autoload": {
         "psr-0": {
             "Award"         : "src/Patterns/Decorator",
-            "Caffeine"      : "src/Patterns/Template",
             "CommManager"   : "src/Patterns/AbstractFactory",
             "ComputerMakers": "src/Patterns/Decorator",
             "Connection"    : "src/Patterns/Singleton",
             "Nav"           : "src/Patterns/Composite",
             "Pizza"         : "src/Patterns/Factory",
             "Player"        : "src/Patterns/Strategy",
+            "Trip"          : "src/Patterns/Template",
+            "Type"          : "src/Patterns/Iterator",
             "XYZ"           : "src/Patterns/Observer",
             ""              : "src/"
         }
