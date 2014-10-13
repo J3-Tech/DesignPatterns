@@ -16,4 +16,5 @@ Behavioral
 ----------
 * [Strategy](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Strategy/Player)
 * [Observer](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Composite/Nav)
-* [Template](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Template/Travel)
+* [Template](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Template/Trip)
+* [Iterator](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Iterator/Type)

@@ -9,7 +9,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 use ComputerMarkers\Client;
 
-class ComputerMarkersCommand extends Command
+class ComputerMakersCommand extends Command
 {
     protected function configure()
     {
