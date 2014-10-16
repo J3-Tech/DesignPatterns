@@ -13,6 +13,7 @@ class TripCommand extends Command
     {
         $this
             ->setName('template:trip')
+            ->setDescription('template method example')
         ;
     }
 

@@ -28,7 +28,7 @@ abstract class NewsPublisher
     public function notify()
     {
         foreach ($this->subscribers as $subscriber) {
-            $this->update($subscriber);
+            $subscriber->update();
         }
     }
 

@@ -13,6 +13,7 @@ class AwardCommand extends Command
     {
         $this
             ->setName('decorator:award')
+            ->setDescription('decorator example')
         ;
     }
 

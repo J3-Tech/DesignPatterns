@@ -13,6 +13,7 @@ class ComputerMakersCommand extends Command
     {
         $this
             ->setName('decorator:computer:markers')
+            ->setDescription('decorator example')
         ;
     }
 

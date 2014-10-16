@@ -13,6 +13,7 @@ class PizzaCommand extends Command
     {
         $this
             ->setName('factory:pizza')
+            ->setDescription('factory method example')
         ;
     }
 

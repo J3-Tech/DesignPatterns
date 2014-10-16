@@ -13,6 +13,7 @@ class TypeCommand extends Command
     {
         $this
             ->setName('iterator:type')
+            ->setDescription('iterator example')
         ;
     }
 

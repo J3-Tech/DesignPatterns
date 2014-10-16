@@ -2,14 +2,8 @@
 
 namespace Type\Iterator;
 
-use Type\Collection\ArrayList;
-
-class ArrayListIterator implements IteratorInterface
+class ArrayCollectionIterator implements IteratorInterface
 {
-    public function __construct(ArrayList $arrayList)
-    {
-        $this->arrayList=$arrayList;
-    }
 
     public function getFirst()
     {

@@ -13,6 +13,7 @@ class ConnectionCommand extends Command
     {
         $this
             ->setName('singleton:connection')
+            ->setDescription('singleton example')
         ;
     }
 

@@ -2,10 +2,25 @@
 
 namespace Type\Iterator;
 
-interface Iterator
+abstract class Iterator
 {
-    public function getFirst();
-    public function getNext();
+    protected $list;
+
+    public function __construct(IList $list)
+    {
+        $this->list=$list;
+    }
+
+    public function getFirst()
+    {
+
+    }
+
+    public function getNext()
+    {
+
+    }
+
     public function isDone();
     public function getCurrentItem();
 }

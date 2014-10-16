@@ -13,9 +13,9 @@ class Client
         $SMSSubscriber=new SMSSubscriber();
         $news=new News();
         $news->attach(new EmailSubscriber())
-                ->attach($SMSSubscriber);
+             ->attach($SMSSubscriber);
 
-        $news->detach($SMSSubscriber);
+        //$news->detach($SMSSubscriber);
 
         $news->notify();
     }

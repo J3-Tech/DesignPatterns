@@ -2,7 +2,7 @@
 
 namespace Type\Collection;
 
-class Collection extends AbstractList
+class ArrayCollection extends AbstractList
 {
     public function createIterator()
     {

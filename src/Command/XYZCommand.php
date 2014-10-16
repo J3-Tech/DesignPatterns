@@ -13,6 +13,7 @@ class XYZCommand extends Command
     {
         $this
             ->setName('observer:xyz')
+            ->setDescription('observer example')
         ;
     }
 

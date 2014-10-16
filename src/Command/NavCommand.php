@@ -13,6 +13,7 @@ class NavCommand extends Command
     {
         $this
             ->setName('composite:nav')
+            ->setDescription('composite example')
         ;
     }
 

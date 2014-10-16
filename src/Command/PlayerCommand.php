@@ -13,6 +13,7 @@ class PlayerCommand extends Command
     {
         $this
             ->setName('strategy:player')
+            ->setDescription('strategy example')
         ;
     }
 

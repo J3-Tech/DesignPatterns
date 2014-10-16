@@ -13,6 +13,7 @@ class CommManagerCommand extends Command
     {
         $this
             ->setName('abstractFactory:commManager')
+            ->setDescription('abstract factory example')
         ;
     }
 

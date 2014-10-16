@@ -8,6 +8,6 @@ class EmailSubscriber extends Subscriber
 {
     public function update(NewsPublisher $newPublisher)
     {
-
+        $newsPublisher->update();
     }
 }
