@@ -8,15 +8,15 @@ use XYZ\Subscriber\SMSSubscriber;
 
 class Client
 {
-	public function __construct()
-	{
-		$SMSSubscriber=new SMSSubscriber();
-		$news=new News();
-		$news->attach(new EmailSubscriber())
-			 	->attach($SMSSubscriber);
+    public function __construct()
+    {
+        $SMSSubscriber=new SMSSubscriber();
+        $news=new News();
+        $news->attach(new EmailSubscriber())
+                ->attach($SMSSubscriber);
 
-		$news->detach($SMSSubscriber);
+        $news->detach($SMSSubscriber);
 
-		$news->notify();
-	}
+        $news->notify();
+    }
 }

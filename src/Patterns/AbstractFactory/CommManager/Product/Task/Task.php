@@ -1,8 +1,10 @@
 <?php
 
-namespace CommManager\Product;
+namespace CommManager\Product\Task;
 
-abstract class Task
+use CommManager\Product\AbstractProduct;
+
+abstract class Task extends AbstractProduct
 {
-
+    // some custom task functionalities here
 }

@@ -2,10 +2,10 @@
 
 namespace Type\Iterator;
 
-interface IteratorInterface
+interface Iterator
 {
-	function getFirst();
-	function getNext();
-	function isDone();
-	function getCurrentItem();
+    public function getFirst();
+    public function getNext();
+    public function isDone();
+    public function getCurrentItem();
 }

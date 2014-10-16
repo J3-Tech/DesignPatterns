@@ -2,15 +2,18 @@
 
 namespace CommManager\Factory;
 
-class XYZFactory extends CommManager
-{
-    public function createXYZ()
-    {
+use CommManager\Product\Appointment\XYZAppointment;
+use CommManager\Product\Task\XYZTask;
 
+class XYZFactory extends AbstractFactory
+{
+    public function createTask()
+    {
+        return new XYZTask();
     }
 
-    public function createBlogg()
+    public function createAppointment()
     {
-
+        return new XYZAppointment();
     }
 }

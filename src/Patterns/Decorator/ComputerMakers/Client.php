@@ -1,11 +1,11 @@
 <?php
 
-namespace ComputerMarkers;
+namespace ComputerMakers;
 
 class Client
 {
-	public function __construct()
-	{
-		
-	}
+    public function __construct()
+    {
+
+    }
 }
