@@ -13,6 +13,7 @@
             "Nav"           : "src/Patterns/Composite",
             "Pizza"         : "src/Patterns/Factory",
             "Player"        : "src/Patterns/Strategy",
+            "Quote"         : "src/Patterns/State",
             "Trip"          : "src/Patterns/Template",
             "Type"          : "src/Patterns/Iterator",
             "XYZ"           : "src/Patterns/Observer",
