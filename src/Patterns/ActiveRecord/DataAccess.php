@@ -7,21 +7,6 @@ class DataAccess
 
     private static $handler;
 
-    private static $instance;
-
-    private function __construct(){ }
-
-    private function __clone(){ }
-
-    /*public function getInstance()
-    {
-        if(self::$instance){
-            self::$instance=new Self();
-        }
-
-        return self::$instance;
-    }*/
-
     private static function getHandler()
     {
         if(!self::$handler){
