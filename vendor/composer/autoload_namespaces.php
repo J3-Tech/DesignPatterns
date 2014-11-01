@@ -6,16 +6,17 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'XYZ' => array($baseDir . '/src/Patterns/Observer'),
-    'Type' => array($baseDir . '/src/Patterns/Iterator'),
-    'Trip' => array($baseDir . '/src/Patterns/Template'),
-    'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
-    'Player' => array($baseDir . '/src/Patterns/Strategy'),
-    'Pizza' => array($baseDir . '/src/Patterns/Factory'),
-    'Nav' => array($baseDir . '/src/Patterns/Composite'),
-    'Connection' => array($baseDir . '/src/Patterns/Singleton'),
-    'ComputerMakers' => array($baseDir . '/src/Patterns/Decorator'),
-    'CommManager' => array($baseDir . '/src/Patterns/AbstractFactory'),
+    'ActiveRecord' => array($baseDir . '/src/Patterns'),
     'Award' => array($baseDir . '/src/Patterns/Decorator'),
+    'CommManager' => array($baseDir . '/src/Patterns/AbstractFactory'),
+    'ComputerMakers' => array($baseDir . '/src/Patterns/Decorator'),
+    'Connection' => array($baseDir . '/src/Patterns/Singleton'),
+    'Nav' => array($baseDir . '/src/Patterns/Composite'),
+    'Pizza' => array($baseDir . '/src/Patterns/Factory'),
+    'Player' => array($baseDir . '/src/Patterns/Strategy'),
+    'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'Trip' => array($baseDir . '/src/Patterns/Template'),
+    'Type' => array($baseDir . '/src/Patterns/Iterator'),
+    'XYZ' => array($baseDir . '/src/Patterns/Observer'),
     '' => array($baseDir . '/src'),
 );
