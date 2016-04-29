@@ -1,0 +1,6 @@
+{
+  "name": "Designpatterns",
+  "tagline": "Design Patterns",
+  "body": "Design Patterns\r\n===============\r\n\r\nCreational\r\n----------\r\n* [Factory](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Factory/Pizza)\r\n* [Abstract Factory](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/AbstractFactory/CommManager)\r\n* [Singleton](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Singleton/Connection)\r\n\r\nStructural\r\n----------\r\n* [Composite](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Composite/Nav)\r\n* [Decorator](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Decorator)\r\n\r\nBehavioral\r\n----------\r\n* [Strategy](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Strategy/Player)\r\n* [Observer](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Composite/Nav)\r\n* [Template](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Template/Trip)\r\n* [Iterator](https://github.com/chellem/DesignPatterns/tree/master/src/Patterns/Iterator/Type)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
